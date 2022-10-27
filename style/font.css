@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Bombing;
+    src: url(../font/Bombing.ttf);
+ }
+ 
+ @font-face {
+    font-family: UrbanHeroes;
+    src: url(../font/Urban\ Heroes.ttf);
+ }
+ 
+ @font-face {
+    font-family: Ghoust;
+    src: url(../font/Ghoust\ Outline.otf);
+ }
+ 
+ @font-face {
+    font-family: Jacatra;
+    src: url(../font/THE_JACATRA.otf);
+ }
+
+
+ .text-logo{
+    font-family: UrbanHeroes;
+    text-decoration: none;    
+    font-size: 35px;
+    color: white;
+}
+
+.text-logo:hover{
+    color: white;
+}
+
+.text-menu-links{
+    /*font-family: Bombing;*/
+    font-family: Ghoust;
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(241, 240, 240);
+
+}
+
+.text-subtitle{
+   /*font-family: Bombing;*/
+   font-family: bombing;
+   text-decoration: none;
+   font-size: 35px;
+   color: rgb(241, 240, 240);
+
+}
+
+.title{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 5%;
+   font-size: 60px;
+   color: white;
+   font-family: Bombing;
+}
+
+
+@media screen and (max-width: 630px) {
+
+   .space-top-responsive{
+      margin-top: 15%;
+   }
+
+}
