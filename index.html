@@ -147,12 +147,12 @@
           <div class="text-subtitle text-center mb-4" data-aos="fade-right" data-aos-duration="2500">
             Realize seu Orçamento!
           </div>
-          <form data-aos="fade-left" data-aos-duration="2500">
+          <form action="./php/send-email.php" method="post" data-aos="fade-left" data-aos-duration="2500">
             <div class="form-group col-md-8 mx-auto ">
               
               <div class="mb-3 form-check">
                 <label class="text-light" for="name">Nome Completo: *</label>
-                <input type="text" class="form-control" id="name" name="email" placeholder="Seu Nome" required>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Seu Nome" required>
               </div>
 
               <div class="mb-3 form-check">
@@ -176,7 +176,7 @@
               </div>
               
               <div class="mb-3 form-check d-flex justify-content-center">
-                <button type="submit" class="btn btn-success ">Enviar</button>
+                <button onclick="validaEnvio()" type="submit" class="btn btn-success ">Enviar</button>
               </div>
 
             </div>
@@ -189,7 +189,7 @@
   <div class="parallax4"></div>
 
   <!--Whats App Link-->
-  <a id="btn-wpp-large" href="https://wa.me/5521969293133?text=Ol%c3%a1%2c+Estou+entrando+em+contato+para+realizar+o+meu+agendamento!" target="_blank" style="position:fixed;bottom:20px;right:30px;"> <img alt="Chat on WhatsApp" src="./imagens/WhatsAppButtonWhiteSmall.svg" /></a>
+  <a id="btn-wpp-large" href="https://wa.me/5521972132565?text=Ol%c3%a1%2c+Estou+entrando+em+contato+para+realizar+o+meu+agendamento!" target="_blank" style="position:fixed;bottom:20px;right:30px;"> <img alt="Chat on WhatsApp" src="./imagens/WhatsAppButtonWhiteSmall.svg" /></a>
   
 
   <!-- JS Bootstrap -->
@@ -210,7 +210,7 @@
       <div class="col-lg-3 col-md-12 mb-4 mb-md-0">
         <h5 class="text-uppercase">Agende o seu horário!</h5>
         <div id="btn-wpp-small" class="mt-5">
-          <a aria-label="Chat on WhatsApp" href="https://wa.me/5521969293133?text=Ol%c3%a1%2c+Estou+entrando+em+contato+para+realizar+o+meu+agendamento!"> <img alt="Chat on WhatsApp" src="./imagens/WhatsAppButtonWhiteSmall.svg" /> </a>
+          <a aria-label="Chat on WhatsApp" href="https://wa.me/5521972132565?text=Ol%c3%a1%2c+Estou+entrando+em+contato+para+realizar+o+meu+agendamento!"> <img alt="Chat on WhatsApp" src="./imagens/WhatsAppButtonWhiteSmall.svg" /> </a>
         </div>
       </div>
     </div>
